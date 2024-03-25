@@ -1,0 +1,31 @@
+GestionnaireContenuMultimedia/
+│
+├── Models/
+│   ├── Media.cs
+│   ├── Image.cs
+│   ├── Video.cs
+│   └── Music.cs
+│
+├── ViewModels/
+│   ├── MainViewModel.cs
+│   ├── MediaViewModel.cs
+│   └── ... 
+│
+├── Views/
+│   ├── MainWindow.xaml
+│   ├── MediaView.xaml
+│   └── ... 
+│
+├── Services/
+│   ├── MediaService.cs
+│   └── ... 
+│
+├── Converters/
+│   ├── BoolToVisibilityConverter.cs
+│   └── ... 
+│
+├── Commands/
+│   ├── RelayCommand.cs
+│   └── ... 
+│
+└── App.xaml
