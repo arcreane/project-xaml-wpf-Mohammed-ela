@@ -1,11 +1,11 @@
-﻿namespace Media_Explorer;
+﻿﻿namespace Media_Explorer;
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public App()
+    {
+        InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new AppShell();
+    }
 }

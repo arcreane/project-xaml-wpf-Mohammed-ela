@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Media_Explorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1d3f405bd5373335d760ca03ab00b6087d5ce52b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4121048bb6b50d30667c7ee9609ee7d9e56d2a76")]
 [assembly: System.Reflection.AssemblyProductAttribute("Media_Explorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Media_Explorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

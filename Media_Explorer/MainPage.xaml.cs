@@ -1,24 +1,25 @@
-﻿namespace Media_Explorer;
+﻿using System;
+using System.Collections.ObjectModel;
+using Media_Explorer.Models;
 
-public partial class MainPage : ContentPage
+namespace Media_Explorer
 {
-	int count = 0;
+    public partial class MainPage : ContentPage
+    {
+        public ObservableCollection<Media> MediaCollection { get; set; }
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+        public MainPage()
+        {
+            InitializeComponent();
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+            MediaCollection = new ObservableCollection<Media>
+            {
+                new ImageMedia("Sample Image", 1024, DateTime.Now, 800, 600),
+                new Video("Sample Video", 2048, DateTime.Now, TimeSpan.FromMinutes(2)),
+                new Music("Sample Music", 512, DateTime.Now, "Artist", "Album", "Genre")
+            };
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+            MediaCollectionView.ItemsSource = MediaCollection;
+        }
+    }
 }
-
