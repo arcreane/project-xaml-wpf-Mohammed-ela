@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Media_Explorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9949d69af40f7e16be49b73dfd89121a5a38ab2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1d3f405bd5373335d760ca03ab00b6087d5ce52b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Media_Explorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Media_Explorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
